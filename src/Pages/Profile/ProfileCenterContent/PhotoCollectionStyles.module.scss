@@ -1,0 +1,14 @@
+.photoCollectionDemo{
+
+  display:flex;
+  flex-direction: row;
+  border: 2px solid #444444;
+
+  border-radius: 8px;
+  width:480px;
+  .photoDemo{
+    border: 1px solid #444444;
+    width:160px;
+    height:100px;
+  }
+}

@@ -1,0 +1,49 @@
+.header{
+  width:100%;
+  background: #444444;
+  color:white;
+  padding-top:10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size:18px;
+
+
+}
+.controlPanel{
+  width:60px;
+  height:642px;
+
+  background: #444444;
+
+  color:white;
+   .logo{
+    margin-left: 20%;
+    padding-top:8px;
+    padding-bottom: 8px;
+    font-size: 28px;
+    .T{
+      color:#A42903
+    }
+    .I{
+
+    }
+  }
+  .control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 150px;
+    grid-row-gap: 50px;
+  }
+}
+
+@media  screen and (max-width:1920px) {
+  .controlPanel{
+    height:960px;
+  }
+}

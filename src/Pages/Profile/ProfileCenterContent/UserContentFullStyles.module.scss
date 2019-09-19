@@ -1,0 +1,28 @@
+.ContentBlock{
+ display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  position: absolute;
+  margin-left: 27%;
+
+  margin-top: 3.5%;
+ .contentColumn {
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+
+   .Postrow{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+   }
+  .contentRow {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+  }
+ }
+}

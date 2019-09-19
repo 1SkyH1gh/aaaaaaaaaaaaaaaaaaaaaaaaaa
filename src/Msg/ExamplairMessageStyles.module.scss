@@ -1,0 +1,21 @@
+.msg_cont{
+  width:450px;
+padding:10px 10px 10px 10px;
+  display:grid;
+ border-bottom: 1px solid lightgrey;
+  grid-template-columns: 70px auto 100px ;
+  .msg_body{
+    display:flex;
+    flex-direction: column;
+    .senderName{
+      font-size: 16px;
+      font-weight: bold;
+      color:#444444;
+
+    }
+    .message{
+      font-size:14px;
+      color:lightgrey;
+    }
+  }
+}

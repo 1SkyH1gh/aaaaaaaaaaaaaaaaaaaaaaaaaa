@@ -1,0 +1,16 @@
+.dropdownCont {
+  display:flex;
+  flex-direction: row;
+  .open {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-right: 2px solid lightgrey;
+  }
+
+  .messages {
+    display: flex;
+    flex-direction: column;
+  }
+}
